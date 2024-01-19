@@ -1,6 +1,6 @@
 import { createIntegration, createComponent } from '@gitbook/runtime';
 
-const UnfurlExample = createComponent<{
+const ScribeHowComponent = createComponent<{
     url?: string;
 }>({
     componentId: 'scribe-how',
@@ -27,6 +27,7 @@ const UnfurlExample = createComponent<{
 
         return (
             <block>
+                <text>Hello</text>
                 <webframe
                     source={{
                         url,
@@ -39,5 +40,5 @@ const UnfurlExample = createComponent<{
 });
 
 export default createIntegration({
-    components: [UnfurlExample],
+    components: [ScribeHowComponent],
 });
