@@ -27,7 +27,6 @@ const ScribeHowComponent = createComponent<{
 
         return (
             <block>
-                <text>Hello</text>
                 <webframe
                     source={{
                         url,
