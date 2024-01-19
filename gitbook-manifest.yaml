@@ -1,0 +1,13 @@
+name: scribe-how
+title: ScribeHow
+organization: iEKQS6Or2UtV2f5DSnZV
+visibility: public
+description: ""
+script: src/index.tsx
+scopes: []
+blocks:
+  - id: scribe-how
+    title: ScribeHow
+    urlUnfurl:
+      - https://lucid.app/*
+secrets: {}
