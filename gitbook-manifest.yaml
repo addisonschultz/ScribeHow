@@ -2,12 +2,20 @@ name: scribe-how
 title: ScribeHow
 organization: iEKQS6Or2UtV2f5DSnZV
 visibility: public
-description: ""
+icon: ./assets/icon.png
+previewImages:
+  - ./assets/scribehow-preview.png
+description: "Embed ScribeHow projects directly into GitBook."
+summary: |
+  # Overview
+  The GitBook ScribeHow integration allows you to embed ScribeHow projects into your GitBook Page.
+  # Configure
+  You can install the integration on a single space by clicking the integrations button in sub-navigation panel. From here you can insert the block into a GitBook Page using the '/' menu and searching for ScribeHow. After inserting the block, insert your ScribeHow project by pasting in it's URL.
 script: src/index.tsx
 scopes: []
 blocks:
   - id: scribe-how
     title: ScribeHow
     urlUnfurl:
-      - https://lucid.app/*
+      - https://scribehow.com/*
 secrets: {}
